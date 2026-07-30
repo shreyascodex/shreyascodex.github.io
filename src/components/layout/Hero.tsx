@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Container } from '@/components/ui/Container';
-import { Button } from '@/components/ui/Button';
+import { Container } from '@/components/ui/container';
+import { Button } from '@/components/ui/button';
 import { ArrowDown, Github, Linkedin, Twitter, Mail } from 'lucide-react';
 import { personalInfo } from '@/data/portfolio';
 import { useTypewriter } from '@/hooks/useTypewriter';
@@ -90,7 +90,7 @@ export function Hero() {
             <div className="absolute inset-0 rounded-full border border-border" />
             <div className="absolute inset-4 rounded-full border border-border/50" />
             <div className="absolute inset-8 rounded-full bg-secondary overflow-hidden group">
-              <div className="w-full h-full bg-gradient-to-tr from-accent/20 to-primary/10 flex items-center justify-center text-8xl text-accent/50 font-bold group-hover:scale-110 transition-transform duration-700">
+              <div className="w-full h-full bg-gradient-to-tr from-accent/20 to-primary/10 flex items-center justify-center text-8xl text-accent/50 font-bold group-hover:scale-110 transition-transform duration-300">
                 {personalInfo.name.charAt(0)}
               </div>
             </div>
