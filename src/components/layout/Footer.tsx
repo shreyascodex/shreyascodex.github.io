@@ -15,7 +15,7 @@ export function Footer() {
 
           <div className="flex flex-col items-center md:items-start gap-2">
             <span className="text-xl font-bold tracking-tight text-foreground">
-              S<span className="text-accent">.</span>Ghimire
+              Shreyas<span className="text-accent"> </span>Ghimire
             </span>
             <p className="text-muted-foreground text-sm">
               &copy; {new Date().getFullYear()} Shreyas Ghimire. All rights reserved.

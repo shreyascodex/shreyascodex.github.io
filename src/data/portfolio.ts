@@ -74,31 +74,66 @@ export const experience: Experience[] = [
 export const projects: Project[] = [
   {
     id: "1",
-    title: "Pirate Helper Discord Bot",
+    title: "Senior Fullstack Journey",
     description:
-      "Discord automation bot created for Minecraft communities featuring moderation commands, server utilities, automation systems, and community management tools.",
-    tags: ["Node.js", "Discord.js", "JavaScript", "API"],
-    category: "Backend",
-    githubUrl: "https://github.com/codexshreyas",
+      "A structured journey through senior-level full-stack web development, documenting concepts, projects, best practices, and continuous learning.",
+    tags: ["HTML", "CSS", "JavaScript", "Git"],
+    category: "Frontend",
+    githubUrl: "https://github.com/shreyascodex/Senior-Fullstack-Journey",
+    featured: true,
+  },
+  {
+    id: "2",
+    title: "Full Stack Auth Boilerplate",
+    description:
+      "A production-ready authentication boilerplate featuring React, TypeScript, Node.js, Express, JWT authentication, email verification, password reset, and secure authentication practices.",
+    tags: [
+      "React",
+      "TypeScript",
+      "Node.js",
+      "Express",
+      "JWT",
+    ],
+    category: "Full Stack",
+    githubUrl: "https://github.com/shreyascodex/fullstack-auth-boilerplate",
+    featured: true,
+  },
+  {
+    id: "3",
+    title: "Game Server Hosting Landing Page",
+    description:
+      "A modern, responsive game server hosting landing page showcasing advanced frontend development, animations, reusable components, and clean UI design.",
+    tags: ["React", "TypeScript", "Tailwind CSS", "Vite"],
+    category: "Frontend",
+    githubUrl: "https://github.com/shreyascodex/game-server-hosting-landing",
     featured: true,
   },
   {
     id: "4",
-    title: "GPA Calculator",
+    title: "Developer Portfolio",
     description:
-      "A simple academic tool that helps students calculate GPA quickly with a clean and responsive interface.",
-    tags: ["HTML", "CSS", "JavaScript"],
+      "My personal portfolio website built to showcase my skills, projects, experience, and frontend development journey.",
+    tags: ["React", "TypeScript", "Tailwind CSS"],
     category: "Frontend",
-    githubUrl: "https://github.com/shreyascodex",
+    githubUrl: "https://github.com/shreyascodex/shreyascodex.github.io",
   },
   {
     id: "5",
+    title: "Agent Skills",
+    description:
+      "A collection of JavaScript-based utilities and agent skills designed to improve automation and developer productivity.",
+    tags: ["JavaScript", "Automation"],
+    category: "Contribution",
+    githubUrl: "https://github.com/shreyascodex/agent-skills",
+  },
+  {
+    id: "6",
     title: "QR Code Generator",
     description:
-      "Python automation project that generates QR codes from text and URLs with a simple workflow.",
-    tags: ["Python", "Automation", "QRCode"],
-    category: "Python",
-    githubUrl: "https://github.com/shreyascodex",
+      "A Python utility that generates QR codes from text and URLs using a simple and efficient workflow.",
+    tags: ["Python", "QRCode", "Automation"],
+    category: "Backend",
+    githubUrl: "https://github.com/shreyascodex/qrcode-gen",
   },
 ];
 

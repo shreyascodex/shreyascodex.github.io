@@ -8,7 +8,7 @@ import { Button } from '@/components/ui/Button';
 import { projects } from '@/data/portfolio';
 import { Github, ExternalLink } from 'lucide-react';
 
-const categories = ['All', 'Frontend', 'Backend', 'Full Stack'];
+const categories = ['All', 'Frontend', 'Backend', 'Full Stack', 'Contribution'];
 
 export function Projects() {
   const [filter, setFilter] = useState('All');
