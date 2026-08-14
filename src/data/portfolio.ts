@@ -25,7 +25,7 @@ export const personalInfo = {
   },
 
   social: {
-    github: "https://github.com/codexshreyas",
+    github: "https://github.com/shreyascodex",
     linkedin: "https://www.linkedin.com/in/shreyas-ghimire-b478212b9/",
     twitter: "https://x.com/shreyascodex",
     email: "shreyasx.dev@gmail.com",
