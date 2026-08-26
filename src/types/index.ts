@@ -4,7 +4,7 @@ export interface Project {
   description: string;
   image?: string;
   tags: string[];
-  category: 'Frontend' | 'Backend' | 'Full Stack' | 'Python';
+  category: 'Frontend' | 'Backend' | 'Full Stack' | 'Python' | 'Contribution';
   liveUrl?: string;
   githubUrl?: string;
   featured?: boolean;

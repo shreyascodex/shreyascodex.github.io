@@ -4,13 +4,13 @@ export const personalInfo = {
   name: "Shreyas Ghimire",
 
   tagline:
-    "Junior Frontend Developer passionate about building responsive, accessible, and user-friendly web applications with React, TypeScript, and modern frontend technologies.",
+    "Frontend Developer passionate about building responsive, accessible, and user-friendly web applications with React, TypeScript, and modern frontend technologies.",
 
   roles: [
-    "Junior Frontend Developer & Learner",
-    "Junior React Developer & Learner",
-    "Junior TypeScript Developer & Learner",
-    "Junior JavaScript Developer & Learner",
+    "Frontend Developer",
+    "React Developer",
+    "TypeScript Developer",
+    "JavaScript Developer",
   ],
 
   about:
@@ -33,17 +33,17 @@ export const personalInfo = {
 };
 
 export const skills: Skill[] = [
-  { name: "React",        category: "Frontend",    level: 30 },
-  { name: "TypeScript",   category: "Frontend",    level: 20 },
-  { name: "Tailwind CSS", category: "Frontend",    level: 30 },
+  { name: "React",        category: "Frontend",    level: 85 },
+  { name: "TypeScript",   category: "Frontend",    level: 82 },
+  { name: "Tailwind CSS", category: "Frontend",    level: 85 },
   { name: "HTML",         category: "Frontend",    level: 95 },
-  { name: "CSS",          category: "Frontend",    level: 75 },
-  { name: "JavaScript",   category: "Programming", level: 65 },
-  { name: "Python",       category: "Programming", level: 70 },
-  { name: "Node.js",      category: "Backend",     level: 65 },
-  { name: "Express.js",   category: "Backend",     level: 60 },
-  { name: "Git & GitHub", category: "Tools",       level: 80 },
-  { name: "Vite",         category: "Tools",       level: 65 },
+  { name: "CSS",          category: "Frontend",    level: 85 },
+  { name: "JavaScript",   category: "Programming", level: 88 },
+  { name: "Python",       category: "Programming", level: 85 },
+  { name: "Node.js",      category: "Backend",     level: 82 },
+  { name: "Express.js",   category: "Backend",     level: 80 },
+  { name: "Git & GitHub", category: "Tools",       level: 90 },
+  { name: "Vite",         category: "Tools",       level: 85 },
 ];
 
 export const experience: Experience[] = [
@@ -74,6 +74,15 @@ export const experience: Experience[] = [
 export const projects: Project[] = [
   {
     id: "1",
+    title: "Calculator",
+    description:
+      "A simple calculator built with HTML, CSS, and JavaScript for practicing interactive frontend fundamentals.",
+    tags: ["HTML", "CSS", "JavaScript"],
+    category: "Frontend",
+    githubUrl: "https://github.com/shreyascodex/Calculator",
+  },
+  {
+    id: "2",
     title: "Senior Fullstack Journey",
     description:
       "A structured journey through senior-level full-stack web development, documenting concepts, projects, best practices, and continuous learning.",
@@ -83,7 +92,7 @@ export const projects: Project[] = [
     featured: true,
   },
   {
-    id: "2",
+    id: "3",
     title: "Full Stack Auth Boilerplate",
     description:
       "A production-ready authentication boilerplate featuring React, TypeScript, Node.js, Express, JWT authentication, email verification, password reset, and secure authentication practices.",
@@ -99,7 +108,7 @@ export const projects: Project[] = [
     featured: true,
   },
   {
-    id: "3",
+    id: "4",
     title: "Game Server Hosting Landing Page",
     description:
       "A modern, responsive game server hosting landing page showcasing advanced frontend development, animations, reusable components, and clean UI design.",
@@ -109,7 +118,7 @@ export const projects: Project[] = [
     featured: true,
   },
   {
-    id: "4",
+    id: "5",
     title: "Developer Portfolio",
     description:
       "My personal portfolio website built to showcase my skills, projects, experience, and frontend development journey.",
@@ -118,7 +127,7 @@ export const projects: Project[] = [
     githubUrl: "https://github.com/shreyascodex/shreyascodex.github.io",
   },
   {
-    id: "5",
+    id: "6",
     title: "Agent Skills",
     description:
       "A collection of JavaScript-based utilities and agent skills designed to improve automation and developer productivity.",
@@ -127,13 +136,31 @@ export const projects: Project[] = [
     githubUrl: "https://github.com/shreyascodex/agent-skills",
   },
   {
-    id: "6",
+    id: "7",
     title: "QR Code Generator",
     description:
       "A Python utility that generates QR codes from text and URLs using a simple and efficient workflow.",
     tags: ["Python", "QRCode", "Automation"],
-    category: "Backend",
+    category: "Python",
     githubUrl: "https://github.com/shreyascodex/qrcode-gen",
+  },
+  {
+    id: "8",
+    title: "Gesture Clone",
+    description:
+      "A JavaScript experiment exploring gesture-based interaction and browser input handling.",
+    tags: ["JavaScript", "HTML", "CSS"],
+    category: "Frontend",
+    githubUrl: "https://github.com/shreyascodex/Gesture-clone",
+  },
+  {
+    id: "9",
+    title: "Mini ATM Machine",
+    description:
+      "A Python ATM simulation with PIN authentication, balance checking, deposits, withdrawals, and a menu-driven interface.",
+    tags: ["Python", "CLI", "Authentication"],
+    category: "Python",
+    githubUrl: "https://github.com/shreyascodex/Mini-ATM-Machine-",
   },
 ];
 

@@ -3,7 +3,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { Menu, X, Moon, Sun } from 'lucide-react';
 import { useScrollSpy } from '@/hooks/useScrollSpy';
 import { useTheme } from 'next-themes';
-import { Button } from '@/components/ui/Button';
+import { Button } from '@/components/ui/button';
 import { Container } from '@/components/ui/Container';
 
 const navLinks = [

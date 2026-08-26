@@ -2,7 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { Container } from '@/components/ui/Container';
 import { SectionTitle } from '@/components/ui/SectionTitle';
-import { Card } from '@/components/ui/Card';
+import { Card } from '@/components/ui/card';
 import { skills } from '@/data/portfolio';
 import { Code2, Server, Wrench, Languages, Database, HeartHandshake, Terminal } from 'lucide-react';
 

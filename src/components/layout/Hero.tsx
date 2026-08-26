@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Container } from '@/components/ui/container';
+import { Container } from '@/components/ui/Container';
 import { Button } from '@/components/ui/button';
 import { ArrowDown, Github, Linkedin, Twitter, Mail } from 'lucide-react';
 import { personalInfo } from '@/data/portfolio';

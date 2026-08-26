@@ -4,8 +4,8 @@ import emailjs from "@emailjs/browser";
 
 import { Container } from "@/components/ui/Container";
 import { SectionTitle } from "@/components/ui/SectionTitle";
-import { Card } from "@/components/ui/Card";
-import { Button } from "@/components/ui/Button";
+import { Card } from "@/components/ui/card";
+import { Button } from "@/components/ui/button";
 
 import { personalInfo } from "@/data/portfolio";
 

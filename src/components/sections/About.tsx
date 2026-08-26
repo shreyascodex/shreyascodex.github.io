@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Container } from '@/components/ui/container';
-import { SectionTitle } from '@/components/ui/section-title';
+import { SectionTitle } from '@/components/ui/SectionTitle';
 import { Card } from '@/components/ui/card';
 import { personalInfo } from '@/data/portfolio';
 

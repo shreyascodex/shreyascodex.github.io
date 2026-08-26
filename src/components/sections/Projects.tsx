@@ -2,13 +2,13 @@ import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Container } from '@/components/ui/Container';
 import { SectionTitle } from '@/components/ui/SectionTitle';
-import { Card } from '@/components/ui/Card';
-import { Badge } from '@/components/ui/Badge';
-import { Button } from '@/components/ui/Button';
+import { Card } from '@/components/ui/card';
+import { Badge } from '@/components/ui/badge';
+import { Button } from '@/components/ui/button';
 import { projects } from '@/data/portfolio';
 import { Github, ExternalLink } from 'lucide-react';
 
-const categories = ['All', 'Frontend', 'Backend', 'Full Stack', 'Contribution'];
+const categories = ['All', 'Frontend', 'Full Stack', 'Python', 'Contribution'];
 
 export function Projects() {
   const [filter, setFilter] = useState('All');
